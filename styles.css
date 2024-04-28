@@ -13,7 +13,8 @@ img {
     justify-content: center;
     align-items: center;
     margin: auto;
-    border-radius: 2%;
+    padding-top: 30px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 body {
@@ -23,9 +24,26 @@ body {
     align-items: center;
 }
 
+.prep {
+    width: 500px;
+    height: 100px;
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 20px;
+    margin-left: 40px;
+}
+
 article {
     width: 600px;
-    border-radius: 2%;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
-    
+}
+
+table, th, td {
+    border: 1px black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
 }
